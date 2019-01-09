@@ -10,6 +10,12 @@ namespace ConsoleApp1
             Console.WriteLine("Hello CWEB!");
 
             List<int> aList = new List<int>();
+
+            aList.Add(156);
+            aList.Add(5);
+
+            Console.WriteLine(aList);
+            Console.ReadLine();
         }
     }
 }
